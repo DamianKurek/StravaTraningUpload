@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<records>
+    <trening>
+    <nazwa>ftp intervals[20m]</nazwa>
+    <czas>20</czas>
+    <opis>3x15min efort</opis>
+</trening>
+    <trening>
+        <nazwa>ftp intervals[40m]</nazwa>
+        <czas>40</czas>
+        <opis>3x10min efort</opis>
+    </trening>
+    <trening>
+        <nazwa>recovey</nazwa>
+        <czas>45</czas>
+        <opis>recovey</opis>
+    </trening>
+    <trening>
+        <nazwa>ftp intervals[20m]</nazwa>
+        <czas>20</czas>
+        <opis>3x5min efort</opis>
+    </trening>
+    <trening>
+        <nazwa>ftp intervals[20m]</nazwa>
+        <czas>20</czas>
+        <opis>3x5min efort</opis>
+    </trening>
+    <trening>
+        <nazwa>ftp intervals[20m]</nazwa>
+        <czas>20</czas>
+        <opis>20 tempo</opis>
+    </trening>
+
+
+
+
+</records>

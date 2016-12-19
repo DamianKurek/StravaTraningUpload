@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+<ImageView
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:id="@+id/bike_icon"
+    android:src="@drawable/bikeok"
+    android:background="#EFEBE9"
+    android:adjustViewBounds="true"
+    android:fadingEdge="horizontal|vertical"
+    android:layout_marginTop="3dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/trening_opis"
+        android:layout_below="@+id/trening_nazwa"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:background="#D7CCC8"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+android:layout_toRightOf="@+id/trening_nazwa"
+        android:id="@+id/trening_czas"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textEnd"
+
+        android:paddingTop="15dp"
+        android:textColor="#000000"
+        android:background="#EFEBE9"
+        android:layout_marginTop="3dp"
+/>
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+
+        android:id="@+id/trening_nazwa"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/bike_icon"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="textStart"
+        android:paddingTop="15dp"
+        android:textColor="#000000"
+        android:background="#EFEBE9"
+        android:layout_marginTop="3dp"
+        android:text="ssssssss"/>
+</RelativeLayout>
